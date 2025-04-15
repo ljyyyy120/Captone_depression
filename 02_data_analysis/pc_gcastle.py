@@ -98,7 +98,7 @@ class PC(BaseLearner):
 
         data = Tensor(data, columns=columns)
 
-        skeleton, sep_set = find_skeleton(data,
+        skeleton, sep_set,results_serial = find_skeleton(data,
                                           alpha=self.alpha,
                                           ci_test=self.ci_test,
                                           variant=self.variant,
@@ -109,6 +109,8 @@ class PC(BaseLearner):
             index=data.columns,
             columns=data.columns
         )
+
+        self._results = results_serial
 
 
 def _loop(G, d):
@@ -491,6 +493,8 @@ def find_skeleton(data, alpha, ci_test, variant='original', base_skeleton=None,
 
     sep_set = {}
     d = -1
+    results_serial = []
+
     while _loop(skeleton, d):  # until for each adj(C,i)\{j} < l
         d += 1
         if variant == 'stable':
@@ -508,6 +512,7 @@ def find_skeleton(data, alpha, ci_test, variant='original', base_skeleton=None,
                     for sub_z in combinations(z, d):
                         sub_z = list(sub_z)
                         _, _, p_value = ci_test(data, i, j, sub_z)
+                        results_serial.append(((i, j), p_value, sub_z))
                         if p_value >= alpha:
                             skeleton[i, j] = skeleton[j, i] = 0
                             sep_set[(i, j)] = sub_z
@@ -535,4 +540,4 @@ def find_skeleton(data, alpha, ci_test, variant='original', base_skeleton=None,
                         skeleton[x, y] = skeleton[y, x] = 0
                         sep_set[(x, y)] = sub_z
 
-    return skeleton, sep_set
+    return skeleton, sep_set,results_serial

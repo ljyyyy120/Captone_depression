@@ -1,0 +1,80 @@
+Pair,p_value,Conditional_Factors
+"Depression, GDP",0.00,
+"Depression, Mental Health Providers",0.00,
+"Depression, Noise",0.00,
+"Depression, Physical Inactivity",0.72,
+"Depression, Park Area",0.00,
+"Depression, Unhealthy Lifestyle",0.02,
+"GDP, Mental Health Providers",0.00,
+"GDP, Noise",0.08,
+"GDP, Physical Inactivity",0.00,
+"GDP, Park Area",0.00,
+"GDP, Unhealthy Lifestyle",0.59,
+"Mental Health Providers, Noise",0.30,
+"Mental Health Providers, Physical Inactivity",0.95,
+"Mental Health Providers, Park Area",0.00,
+"Mental Health Providers, Unhealthy Lifestyle",0.90,
+"Noise, Physical Inactivity",0.03,
+"Noise, Park Area",0.06,
+"Noise, Unhealthy Lifestyle",0.18,
+"Physical Inactivity, Park Area",0.00,
+"Physical Inactivity, Unhealthy Lifestyle",0.00,
+"Park Area, Unhealthy Lifestyle",0.01,
+"Depression, GDP",0.00,Mental Health Providers
+"Depression, GDP",0.00,Noise
+"Depression, GDP",0.00,Park Area
+"Depression, Mental Health Providers",0.00,GDP
+"Depression, Mental Health Providers",0.00,Noise
+"Depression, Mental Health Providers",0.00,Park Area
+"Depression, Noise",0.00,GDP
+"Depression, Noise",0.00,Mental Health Providers
+"Depression, Noise",0.00,Park Area
+"Depression, Park Area",0.00,GDP
+"Depression, Park Area",0.00,Mental Health Providers
+"Depression, Park Area",0.00,Noise
+"GDP, Mental Health Providers",0.00,Depression
+"GDP, Mental Health Providers",0.00,Physical Inactivity
+"GDP, Mental Health Providers",0.00,Park Area
+"GDP, Physical Inactivity",0.00,Depression
+"GDP, Physical Inactivity",0.00,Mental Health Providers
+"GDP, Physical Inactivity",0.00,Park Area
+"GDP, Park Area",0.00,Depression
+"GDP, Park Area",0.00,Mental Health Providers
+"GDP, Park Area",0.00,Physical Inactivity
+"Mental Health Providers, Park Area",0.00,Depression
+"Mental Health Providers, Park Area",0.00,GDP
+"Physical Inactivity, Park Area",0.17,GDP
+"Physical Inactivity, Unhealthy Lifestyle",0.01,GDP
+"Physical Inactivity, Unhealthy Lifestyle",0.00,Park Area
+"Park Area, Unhealthy Lifestyle",0.00,Depression
+"Park Area, Unhealthy Lifestyle",0.00,GDP
+"Park Area, Unhealthy Lifestyle",0.01,Mental Health Providers
+"Depression, GDP",0.00,"Mental Health Providers, Noise"
+"Depression, GDP",0.00,"Mental Health Providers, Park Area"
+"Depression, GDP",0.00,"Noise, Park Area"
+"Depression, Mental Health Providers",0.00,"GDP, Noise"
+"Depression, Mental Health Providers",0.00,"GDP, Park Area"
+"Depression, Mental Health Providers",0.00,"Noise, Park Area"
+"Depression, Noise",0.00,"GDP, Mental Health Providers"
+"Depression, Noise",0.00,"GDP, Park Area"
+"Depression, Noise",0.00,"Mental Health Providers, Park Area"
+"Depression, Park Area",0.00,"GDP, Mental Health Providers"
+"Depression, Park Area",0.00,"GDP, Noise"
+"Depression, Park Area",0.00,"Mental Health Providers, Noise"
+"GDP, Mental Health Providers",0.00,"Depression, Physical Inactivity"
+"GDP, Mental Health Providers",0.00,"Depression, Park Area"
+"GDP, Mental Health Providers",0.00,"Physical Inactivity, Park Area"
+"GDP, Physical Inactivity",0.00,"Depression, Mental Health Providers"
+"GDP, Physical Inactivity",0.00,"Depression, Park Area"
+"GDP, Physical Inactivity",0.00,"Mental Health Providers, Park Area"
+"GDP, Park Area",0.00,"Depression, Mental Health Providers"
+"GDP, Park Area",0.00,"Depression, Physical Inactivity"
+"GDP, Park Area",0.00,"Mental Health Providers, Physical Inactivity"
+"Mental Health Providers, Park Area",0.00,"Depression, GDP"
+"Depression, GDP",0.00,"Mental Health Providers, Noise, Park Area"
+"Depression, Mental Health Providers",0.00,"GDP, Noise, Park Area"
+"Depression, Noise",0.00,"GDP, Mental Health Providers, Park Area"
+"Depression, Park Area",0.00,"GDP, Mental Health Providers, Noise"
+"GDP, Mental Health Providers",0.00,"Depression, Physical Inactivity, Park Area"
+"GDP, Physical Inactivity",0.00,"Depression, Mental Health Providers, Park Area"
+"GDP, Park Area",0.00,"Depression, Mental Health Providers, Physical Inactivity"
