@@ -1,0 +1,80 @@
+Factor Pairs,Conditional Factors,p-value
+"Mental Health Providers, Unhealthy Lifestyle",--,8.54e-10
+"Mental Health Providers, Noise",--,4.81e-10
+"Mental Health Providers, Depression",--,2.98e-08
+"Mental Health Providers, Park Area",--,0.719
+"Mental Health Providers, Physical Inactivity",--,7.4e-15
+"Mental Health Providers, GDP",--,0.0155
+"Unhealthy Lifestyle, Noise",--,9.61e-10
+"Unhealthy Lifestyle, Depression",--,0.0764
+"Unhealthy Lifestyle, Park Area",--,4.48e-06
+"Unhealthy Lifestyle, Physical Inactivity",--,4.19e-12
+"Unhealthy Lifestyle, GDP",--,0.586
+"Noise, Depression",--,0.299
+"Noise, Park Area",--,0.951
+"Noise, Physical Inactivity",--,8.89e-07
+"Noise, GDP",--,0.901
+"Depression, Park Area",--,0.0328
+"Depression, Physical Inactivity",--,0.0581
+"Depression, GDP",--,0.184
+"Park Area, Physical Inactivity",--,0.00192
+"Park Area, GDP",--,0.00128
+"Physical Inactivity, GDP",--,0.008
+"Mental Health Providers, Unhealthy Lifestyle",Noise,5.63e-15
+"Mental Health Providers, Unhealthy Lifestyle",Depression,2.95e-08
+"Mental Health Providers, Unhealthy Lifestyle",Physical Inactivity,4.97e-06
+"Mental Health Providers, Noise",Unhealthy Lifestyle,2.96e-14
+"Mental Health Providers, Noise",Depression,3.16e-10
+"Mental Health Providers, Noise",Physical Inactivity,3.56e-15
+"Mental Health Providers, Depression",Unhealthy Lifestyle,4.09e-08
+"Mental Health Providers, Depression",Noise,2.36e-07
+"Mental Health Providers, Depression",Physical Inactivity,2.26e-07
+"Mental Health Providers, Physical Inactivity",Unhealthy Lifestyle,5.16e-12
+"Mental Health Providers, Physical Inactivity",Noise,7.28e-20
+"Mental Health Providers, Physical Inactivity",Depression,2.95e-15
+"Unhealthy Lifestyle, Noise",Mental Health Providers,4.1e-14
+"Unhealthy Lifestyle, Noise",Park Area,1.76e-10
+"Unhealthy Lifestyle, Noise",Physical Inactivity,1.93e-07
+"Unhealthy Lifestyle, Park Area",Mental Health Providers,9.52e-06
+"Unhealthy Lifestyle, Park Area",Noise,4.36e-06
+"Unhealthy Lifestyle, Park Area",Physical Inactivity,0.000213
+"Unhealthy Lifestyle, Physical Inactivity",Mental Health Providers,1.46e-09
+"Unhealthy Lifestyle, Physical Inactivity",Noise,1.16e-07
+"Unhealthy Lifestyle, Physical Inactivity",Park Area,9.23e-12
+"Noise, Physical Inactivity",Mental Health Providers,1.65e-10
+"Noise, Physical Inactivity",Unhealthy Lifestyle,0.000161
+"Park Area, Physical Inactivity",Unhealthy Lifestyle,0.166
+"Park Area, GDP",Unhealthy Lifestyle,0.00637
+"Park Area, GDP",Physical Inactivity,0.000271
+"Physical Inactivity, GDP",Mental Health Providers,1.34e-05
+"Physical Inactivity, GDP",Unhealthy Lifestyle,0.000479
+"Physical Inactivity, GDP",Noise,0.0115
+"Mental Health Providers, Unhealthy Lifestyle","Noise, Depression",1.63e-13
+"Mental Health Providers, Unhealthy Lifestyle","Noise, Physical Inactivity",2.9e-10
+"Mental Health Providers, Unhealthy Lifestyle","Depression, Physical Inactivity",0.000118
+"Mental Health Providers, Noise","Unhealthy Lifestyle, Depression",3.84e-14
+"Mental Health Providers, Noise","Unhealthy Lifestyle, Physical Inactivity",4.04e-18
+"Mental Health Providers, Noise","Depression, Physical Inactivity",2.29e-15
+"Mental Health Providers, Depression","Unhealthy Lifestyle, Noise",4.86e-07
+"Mental Health Providers, Depression","Unhealthy Lifestyle, Physical Inactivity",2.57e-07
+"Mental Health Providers, Depression","Noise, Physical Inactivity",3.02e-06
+"Mental Health Providers, Physical Inactivity","Unhealthy Lifestyle, Noise",1.65e-16
+"Mental Health Providers, Physical Inactivity","Unhealthy Lifestyle, Depression",2.19e-12
+"Mental Health Providers, Physical Inactivity","Noise, Depression",1.56e-20
+"Unhealthy Lifestyle, Noise","Mental Health Providers, Park Area",6.87e-15
+"Unhealthy Lifestyle, Noise","Mental Health Providers, Physical Inactivity",9.19e-11
+"Unhealthy Lifestyle, Noise","Park Area, Physical Inactivity",3.15e-08
+"Unhealthy Lifestyle, Park Area","Mental Health Providers, Noise",7.6e-06
+"Unhealthy Lifestyle, Park Area","Mental Health Providers, Physical Inactivity",0.000294
+"Unhealthy Lifestyle, Park Area","Noise, Physical Inactivity",0.00054
+"Unhealthy Lifestyle, Physical Inactivity","Mental Health Providers, Noise",3.13e-05
+"Unhealthy Lifestyle, Physical Inactivity","Mental Health Providers, Park Area",2.31e-09
+"Unhealthy Lifestyle, Physical Inactivity","Noise, Park Area",4.65e-07
+"Noise, Physical Inactivity","Mental Health Providers, Unhealthy Lifestyle",1.8e-07
+"Mental Health Providers, Unhealthy Lifestyle","Noise, Depression, Physical Inactivity",8.61e-09
+"Mental Health Providers, Noise","Unhealthy Lifestyle, Depression, Physical Inactivity",3.71e-18
+"Mental Health Providers, Depression","Unhealthy Lifestyle, Noise, Physical Inactivity",5.25e-06
+"Mental Health Providers, Physical Inactivity","Unhealthy Lifestyle, Noise, Depression",6.01e-17
+"Unhealthy Lifestyle, Noise","Mental Health Providers, Park Area, Physical Inactivity",8.44e-12
+"Unhealthy Lifestyle, Park Area","Mental Health Providers, Noise, Physical Inactivity",0.000674
+"Unhealthy Lifestyle, Physical Inactivity","Mental Health Providers, Noise, Park Area",0.0001

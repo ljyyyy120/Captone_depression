@@ -368,7 +368,6 @@ def mutual_information_ci_test(data, x, y, z=None, num_bins=5, n_perm=1000):
     return obs_mi, None, p_value
 
 def select_ci_test(ci_test):
-    print("ci_test is now:", ci_test)
     if ci_test == 'spearman':
         return spearman_ci_test
     elif ci_test == 'mutual_info':
