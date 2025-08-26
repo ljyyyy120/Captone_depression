@@ -510,8 +510,8 @@ def find_skeleton(data, alpha, ci_test, variant='original', base_skeleton=None,
                     # |adj(C, i)\{j}| >= l
                     for sub_z in combinations(z, d):
                         sub_z = list(sub_z)
-                        _, _, p_value = ci_test(data, i, j, sub_z)
-                        results_serial.append(((i, j), p_value, sub_z))
+                        corr, _, p_value = ci_test(data, i, j, sub_z)
+                        results_serial.append((i, j,sub_z, corr, p_value))
                         if p_value >= alpha:
                             skeleton[i, j] = skeleton[j, i] = 0
                             sep_set[(i, j)] = sub_z
