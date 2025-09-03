@@ -378,6 +378,7 @@ def select_ci_test(ci_test):
         raise ValueError(f'The type of param `ci_test` expected a callable, but got {type(ci_test)}.')
 
 
+
 def find_skeleton(data, alpha, ci_test, variant='original', base_skeleton=None,
                   p_cores=1, s=None, batch=None):
     """Find skeleton graph from G using PC algorithm
@@ -539,4 +540,4 @@ def find_skeleton(data, alpha, ci_test, variant='original', base_skeleton=None,
                         skeleton[x, y] = skeleton[y, x] = 0
                         sep_set[(x, y)] = sub_z
 
-    return skeleton, sep_set,results_serial
+    return skeleton, sep_set, results_serial
