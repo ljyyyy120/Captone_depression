@@ -378,7 +378,7 @@ def select_ci_test(ci_test):
 
 
 
-def find_skeleton(data, alpha, ci_test, variant='original', base_skeleton=None,
+def find_skeleton(data, alpha, ci_test, variant='stable', base_skeleton=None,
                   p_cores=1, s=None, batch=None):
     """Find skeleton graph from G using PC algorithm
 
