@@ -110,6 +110,7 @@ class PC(BaseLearner):
         )
 
         self._results = results_serial
+        self._sep_set = sep_set
 
 
 def _loop(G, d):
